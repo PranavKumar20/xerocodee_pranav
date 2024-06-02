@@ -6,8 +6,6 @@ import { account } from '../../../appwrite';
 import { Button, Container, Typography, Snackbar, Alert, Box, IconButton } from '@mui/material';
 import RefreshIcon from '@mui/icons-material/Refresh';
 import CircleIcon from '@mui/icons-material/Circle';
-import HomeIcon from '@mui/icons-material/Home';
-import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import SettingsOutlinedIcon from '@mui/icons-material/SettingsOutlined';
 import LogoutIcon from '@mui/icons-material/Logout';
 import NotificationsNoneOutlinedIcon from '@mui/icons-material/NotificationsNoneOutlined';

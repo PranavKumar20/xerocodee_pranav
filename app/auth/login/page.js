@@ -30,7 +30,7 @@ const Login = () => {
   };
 
   const handleSocialLogin = (provider) => {
-    account.createOAuth2Session(provider, 'http://localhost:3000/pages/dashboard', 'http://localhost:3000/pages/failed');
+    account.createOAuth2Session(provider, 'https://xerocodee-pranav.vercel.app/pages/dashboard', 'https://xerocodee-pranav.vercel.app/pages/failed');
   };
 
   const handleClose = () => {
