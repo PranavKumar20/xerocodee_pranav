@@ -114,7 +114,7 @@ const Login = () => {
           </Grid>
           <Grid item textAlign="center">
             <Typography variant="body2">
-              Don't have an account?{' '}
+              Don&apos;t have an account?{' '}
               <Button color="primary" onClick={() => router.push('/auth/register')}>
                 SIGN UP
               </Button>
