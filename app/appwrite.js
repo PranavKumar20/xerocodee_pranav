@@ -2,9 +2,11 @@ import { Client, Account } from 'appwrite';
 
 export const client = new Client();
 
+// const appwriteProjectId = process.env.NEXT_PUBLIC_APPWRITEPROJECTID;
+
 client
     .setEndpoint('https://cloud.appwrite.io/v1')
-    .setProject('665810a6002b15a7a08f'); 
+    .setProject(process.env.APPWRITEPROJECTID); 
 
 export const account = new Account(client);
 export { ID } from 'appwrite';
